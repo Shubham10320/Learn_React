@@ -1,0 +1,8 @@
+#root{
+    border: 1px solid black;
+    text-align: center;
+}
+#container{
+    border: 1px dashed red;
+    margin: 10px;
+}

@@ -1,0 +1,78 @@
+● What is Emmet?
+1. without Emmet 
+<div className="container">
+  <ul>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+
+2. with Emmet 
+div.container>ul>li*2
+
+
+● Difference between a Library and Framework?
+    1. Framework :- it is a collection of librarires/packages and set of rules
+    2. Library :- it is a collection of pre-defined function, class or properties
+
+
+● What is CDN? Why do we use it?
+   1. its a content delivery network 
+   2. Why do we use CDN?
+    - Faster loading (gets files from nearest server)
+    - Reduces server load
+    - Improves website performance
+    - Reliable content delivery
+
+● Why is React known as React?
+    React is called "React" because it is designed to "react" to changes in data and update the user interface (UI) efficiently.
+
+
+● What is crossorigin in script tag?
+    The crossorigin attribute is used when you're loading a script from another origin (domain) — like from a CDN — and you 
+    want the browser to handle CORS (Cross-Origin Resource Sharing) properly.
+
+
+● What is diference between React and ReactDOM
+    1. React :- 
+       The core library for building components and managing state.
+       Handles logic, UI structure, hooks, and component lifecycle.
+       e.g import React, { useState } from 'react';
+
+    2. ReactDOM :- 
+       Bridge between React and the actual DOM (web page).
+       Used to render React components into the browser.
+       e.g ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+
+
+
+
+● What is difference between react.development.js and react.production.js files via CDN?
+    1. react.development.js
+       - For developers to test and debug
+       - Shows errors and warnings
+       - Slower and bigger
+
+    2. react.production.js
+       - For live websites
+       - No warnings, just runs fast
+       - Smaller and faster
+
+    ✅ In short:
+    👨‍💻 While making the app	react.development.js
+    🌐 When app is live	react.production.js
+
+
+
+● What is async and defer?
+    1. async :-
+       - Loads the script in the background
+       - When it's ready, it stops HTML parsing and runs the script
+       - Fast but can break order if you load multiple scripts
+    e.g <script src="script.js" async></script>
+
+    2. defer
+        - Loads the script in the background
+        - Waits until HTML is fully loaded, then runs the script in order
+        - Best for scripts that need the full HTML (like DOM)
+    e.g <script src="script.js" defer></script>
