@@ -76,3 +76,10 @@ div.container>ul>li*2
         - Waits until HTML is fully loaded, then runs the script in order
         - Best for scripts that need the full HTML (like DOM)
     e.g <script src="script.js" defer></script>
+
+
+● Assume if we have <div id="root"></div> and inside div me add manually few html tags like h1, br, input etc
+  and also we have created few tags using React.createElement inside script and rendering it to root div so will it override the existing
+  tags or it will just add the new tags which we created using React.createElement below the other tags ? 
+
+  - it will remove all the tags from root div and only show which we have created inside script using react.createElement
