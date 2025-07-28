@@ -1,0 +1,10 @@
+### In this assignment we are learning  "component, props, list, keys, event, conditional rendering"
+
+1. what is type=module in script tag, why we need it and why without type=module we cannot import/export ? 
+2. what is the differance between normal script and script with type=module 
+3. how many values we have for attribute "type" in script tag ? 
+4. HMR - Hot Module Reloading
+5. when we make changes in any file and without re-running the code how things reflect in localhost - bcoz of file watcher algo (written in c++)
+6. what is component?
+7. when we dont pass argument then call function like this onClick={hanldeFunction}
+8. with argument call in this way :- onClick={()=>{handleFunction}}
